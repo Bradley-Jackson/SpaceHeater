@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="heaterApp.temperatureSetting">
+    <ContentPage.Content>
+        <StackLayout>
+            <Picker x:Name="TemperatureScalePicker"
+                Title="Select a temperature scale"
+                TitleColor="Red">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Fahrenheit</x:String>
+                        <x:String>Celsius</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Label Text="{Binding Source={x:Reference TemperatureScalePicker}, Path=SelectedItem}" />
+            <Label Text="Desired temperature: "
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Editor x:Name="desiredTemperatureText"
+                Placeholder="temperature in degrees"
+                HeightRequest="100" />
+            <Button Text="Set temp"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                Clicked="setTemperature"    
+                    />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

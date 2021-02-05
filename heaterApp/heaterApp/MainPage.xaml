@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:heaterApp"
+             x:Class="heaterApp.MainPage">
+
+    <StackLayout Margin="10,35,10,10">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            
+            <Label Text="Wifi Network"
+               HorizontalOptions="Center"
+               FontAttributes="Bold" />
+            <Editor x:Name="WifiNetwork"
+                Placeholder="Enter your network name"
+                HeightRequest="100" />
+            
+        </Grid>
+        
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Wifi password"
+               HorizontalOptions="Center"
+               FontAttributes="Bold" />
+            <Editor x:Name="WifiPassword"
+                Placeholder="Enter your password"
+                HeightRequest="100" />
+
+        </Grid>
+        <Button Text="Submit"
+                    Clicked="OnWifiSubmitButtonClicked" />
+    </StackLayout>
+</ContentPage>

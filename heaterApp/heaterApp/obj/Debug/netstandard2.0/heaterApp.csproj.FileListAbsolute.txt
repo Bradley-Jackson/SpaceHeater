@@ -1,0 +1,15 @@
+C:\Users\Nour Hijazi\source\repos\heaterApp\heaterApp\heaterApp\obj\Debug\netstandard2.0\heaterApp.csprojAssemblyReference.cache
+C:\Users\Nour Hijazi\source\repos\heaterApp\heaterApp\heaterApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Nour Hijazi\source\repos\heaterApp\heaterApp\heaterApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Nour Hijazi\source\repos\heaterApp\heaterApp\heaterApp\obj\Debug\netstandard2.0\heaterApp.csproj.CoreCompileInputs.cache
+C:\Users\Nour Hijazi\source\repos\heaterApp\heaterApp\heaterApp\obj\Debug\netstandard2.0\heaterApp.AssemblyInfoInputs.cache
+C:\Users\Nour Hijazi\source\repos\heaterApp\heaterApp\heaterApp\obj\Debug\netstandard2.0\heaterApp.AssemblyInfo.cs
+C:\Users\Nour Hijazi\source\repos\heaterApp\heaterApp\heaterApp\obj\Debug\netstandard2.0\heaterApp.dll
+C:\Users\Nour Hijazi\source\repos\heaterApp\heaterApp\heaterApp\obj\Debug\netstandard2.0\heaterApp.pdb
+C:\Users\Nour Hijazi\source\repos\heaterApp\heaterApp\heaterApp\bin\Debug\netstandard2.0\heaterApp.deps.json
+C:\Users\Nour Hijazi\source\repos\heaterApp\heaterApp\heaterApp\bin\Debug\netstandard2.0\heaterApp.dll
+C:\Users\Nour Hijazi\source\repos\heaterApp\heaterApp\heaterApp\bin\Debug\netstandard2.0\heaterApp.pdb
+C:\Users\Nour Hijazi\source\repos\heaterApp\heaterApp\heaterApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Nour Hijazi\source\repos\heaterApp\heaterApp\heaterApp\obj\Debug\netstandard2.0\SystemInfo.xaml.g.cs
+C:\Users\Nour Hijazi\source\repos\heaterApp\heaterApp\heaterApp\obj\Debug\netstandard2.0\ScheduledHeating.xaml.g.cs
+C:\Users\Nour Hijazi\source\repos\heaterApp\heaterApp\heaterApp\obj\Debug\netstandard2.0\temperatureSetting.xaml.g.cs

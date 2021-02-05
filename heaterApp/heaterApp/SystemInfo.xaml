@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="heaterApp.SystemInfo"
+             Title="System Information">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Room temperature: "
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label Text="Surface temperature: "
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Refresh"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                Clicked="RefreshSystemInfo"    
+                    />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
