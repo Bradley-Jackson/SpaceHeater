@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "bM+v6/TcZt7UxDctLncZBIJjZAuugDAkqu3sqOJ4eWw15hBobOkSTpY0yE4PVKvuaX3tBR+fmhkNjqF6qyIyNA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Bradj\\Source\\Repos\\SpaceHeater\\heaterApp\\heaterApp\\heaterApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bradj\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Bradj\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Bradj\\.nuget\\packages\\xamarin.forms\\3.3.0.912540\\xamarin.forms.3.3.0.912540.nupkg.sha512"
+  ],
+  "logs": []
+}

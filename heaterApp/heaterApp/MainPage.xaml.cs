@@ -14,18 +14,28 @@ namespace heaterApp
             InitializeComponent();
         }
 
-        async void OnWifiSubmitButtonClicked(object sender, EventArgs e)
+        //async void OnWifiSubmitButtonClicked(object sender, EventArgs e)
+        //{
+        //    Console.WriteLine("submitted wifi creds");
+        //    try
+        //    {
+        //        //await Navigation.PushAsync(new NavigationPage(new SystemInfo()));
+        //        //if successful, notify user and direct to temperature setting page
+        //        //else tell user it was unsuccessful
+        //    } catch (Exception ex)
+        //    {
+        //        Console.WriteLine(ex.Message);
+        //    }
+        //}
+
+        private void LoginButton_Clicked(object sender, EventArgs e)
         {
-            Console.WriteLine("submitted wifi creds");
-            try
-            {
-                //await Navigation.PushAsync(new NavigationPage(new SystemInfo()));
-                //if successful, notify user and direct to temperature setting page
-                //else tell user it was unsuccessful
-            } catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
+            Console.WriteLine("login");
+        }
+
+        private void RegisterButton_Clicked(object sender, EventArgs e)
+        {
+            Console.WriteLine("Register");
         }
     }
 }

@@ -1,0 +1,6 @@
+C:\Users\Bradj\Source\Repos\SpaceHeater\heaterApp\heaterApp.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+C:\Users\Bradj\Source\Repos\SpaceHeater\heaterApp\heaterApp.Android\obj\Debug\81\build.props
+C:\Users\Bradj\Source\Repos\SpaceHeater\heaterApp\heaterApp.Android\obj\Debug\81\adb.props
+C:\Users\Bradj\Source\Repos\SpaceHeater\heaterApp\heaterApp.Android\obj\Debug\81\heaterApp.Android.csprojAssemblyReference.cache
+C:\Users\Bradj\Source\Repos\SpaceHeater\heaterApp\heaterApp.Android\obj\Debug\81\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\Bradj\Source\Repos\SpaceHeater\heaterApp\heaterApp.Android\obj\Debug\81\res.flag

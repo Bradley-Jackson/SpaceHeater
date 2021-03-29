@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uLo9z8ANx66BZbKrKtlirda7t84UwWXMhrkn3kqFWxvT3cpBD4ydFynSi+ryYpGh0yUdc8adH/1OVJRBuxKb7Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Bradj\\Source\\Repos\\SpaceHeater\\heaterApp\\heaterApp.iOS\\heaterApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bradj\\.nuget\\packages\\xamarin.forms\\3.3.0.912540\\xamarin.forms.3.3.0.912540.nupkg.sha512"
+  ],
+  "logs": []
+}
