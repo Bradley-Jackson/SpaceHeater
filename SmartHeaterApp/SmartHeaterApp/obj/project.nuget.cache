@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "WsBwX9fPBVheAcXNxbJS0223uoX3gSI99sjAb857hGROIucCtIzZgtbbXuQR3JbfYaO6w4NC2wQLkiOcrhQJNQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Bradj\\source\\repos\\SmartHeaterApp\\SmartHeaterApp\\SmartHeaterApp\\SmartHeaterApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bradj\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Bradj\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Bradj\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
