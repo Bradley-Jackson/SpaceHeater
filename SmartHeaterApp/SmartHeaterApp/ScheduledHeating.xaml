@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartHeaterApp.ScheduledHeating">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Desired temperature: "
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Editor x:Name="desiredScheduledTemperatureText"
+                Placeholder="temperature in degrees"
+                HeightRequest="100" />
+            <Label Text="Start date and time: "
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <DatePicker ClassId="StartDate" />
+            <TimePicker ClassId="StartTime" />
+
+            <Label Text="End date and time: "
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <DatePicker ClassId="EndDate" />
+            <TimePicker ClassId="EndTime" />
+
+            <Button Text="Set scheduled heat"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                Clicked="setScheduledHeat"    
+                    />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

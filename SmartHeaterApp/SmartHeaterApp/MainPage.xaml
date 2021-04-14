@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartHeaterApp.MainPage">
+
+    <ContentView IsEnabled="True" x:Name="asdf">
+        <ContentView.Content>
+            <StackLayout Margin="10,35,10,10">
+                <Grid VerticalOptions="CenterAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Row="0" 
+                    Text="Smart Heater App" 
+                    FontSize="40" 
+                    HorizontalOptions="Center"
+                    Margin="0, -80, 0, 80"/>
+
+                    <Grid VerticalOptions="CenterAndExpand" Grid.Row="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <StackLayout Grid.Row="0">
+                            <Entry Placeholder="email" 
+                                   x:Name="EntryEmail"/>
+                        </StackLayout>
+                        
+                        <StackLayout Grid.Row="1">
+                            <Entry Placeholder="password" 
+                                   IsPassword="True" 
+                                   x:Name="EntryPassword"/>
+                        </StackLayout>
+                        
+                        <StackLayout Grid.Row="2" Margin="10">
+                            <Button Text="Login" 
+                                    HorizontalOptions="CenterAndExpand" 
+                                    TextColor="White" 
+                                    BackgroundColor="DarkRed"
+                                    HeightRequest="60"  
+                                    CornerRadius="10"
+                                    x:Name="LoginButton"
+                                    Clicked="LoginButton_Clicked"/>
+                        </StackLayout>
+                        
+                        <StackLayout Grid.Row="3" Margin="10">
+                            <Button Text="Register" 
+                                    HorizontalOptions="CenterAndExpand" 
+                                    TextColor="White" 
+                                    BackgroundColor="DarkRed"
+                                    HeightRequest="60" 
+                                    CornerRadius="10"
+                                    x:Name="RegisterButton"
+                                    Clicked="RegisterButton_Clicked"/>
+                        </StackLayout>
+                    </Grid>
+                </Grid>
+            </StackLayout>
+        </ContentView.Content>
+
+    </ContentView>
+</ContentPage>
+<!--<Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            
+            <Label Text="Wifi Network"
+               HorizontalOptions="Center"
+               FontAttributes="Bold" />
+            <Editor x:Name="WifiNetwork"
+                Placeholder="Enter your network name"
+                HeightRequest="100" />
+            
+        </Grid>
+        
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Wifi password"
+               HorizontalOptions="Center"
+               FontAttributes="Bold" />
+            <Editor x:Name="WifiPassword"
+                Placeholder="Enter your password"
+                HeightRequest="100" />
+
+        </Grid>
+        <Button Text="Submit"
+                    Clicked="OnWifiSubmitButtonClicked" />-->
