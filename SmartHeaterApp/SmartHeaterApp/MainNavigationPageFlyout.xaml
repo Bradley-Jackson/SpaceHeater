@@ -16,15 +16,16 @@
             <ColumnDefinition Width="10"/>
           </Grid.ColumnDefinitions>
           <Grid.RowDefinitions>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="80"/>
+            <RowDefinition Height="1"/>
+            <RowDefinition Height="2"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="10"/>
           </Grid.RowDefinitions>
           <Label
+              x:Name="TopBar"
               Grid.Column="1"
               Grid.Row="2"
-              Text="Logged in as a"
+              Text=""
               Style="{DynamicResource SubtitleStyle}"/>
         </Grid>
       </ListView.Header>

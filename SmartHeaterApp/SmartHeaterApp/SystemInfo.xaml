@@ -7,11 +7,21 @@
             <Label Text="Room temperature: "
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-
+            
+            <Label x:Name="RoomDisplayLabel"
+                Text=""
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            
             <Label Text="Surface temperature: "
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-
+            
+            <Label x:Name="SurfaceDisplayLabel"
+                Text=""
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            
             <Button Text="Refresh"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"

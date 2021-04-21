@@ -4,17 +4,6 @@
              x:Class="SmartHeaterApp.TemperatureSettings">
     <ContentPage.Content>
         <StackLayout>
-            <Picker x:Name="TemperatureScalePicker"
-                Title="Select a temperature scale"
-                TitleColor="Red">
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>Fahrenheit</x:String>
-                        <x:String>Celsius</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
-            <Label Text="{Binding Source={x:Reference TemperatureScalePicker}, Path=SelectedItem}" />
             <Label Text="Desired temperature: "
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />

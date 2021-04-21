@@ -4,12 +4,18 @@
              x:Class="SmartHeaterApp.MainNavigationPage"
              xmlns:pages="clr-namespace:SmartHeaterApp">
   <FlyoutPage.Flyout>
-    <pages:MainNavigationPageFlyout x:Name="FlyoutPage" />
+        <pages:MainNavigationPageFlyout x:Name="FlyoutPage" />
   </FlyoutPage.Flyout>
   <FlyoutPage.Detail>
     <NavigationPage>
       <x:Arguments>
-        <pages:SystemInfo />
+        <pages:SystemInfo>
+            <x:Arguments>
+                <x:Boolean>
+                    true
+                </x:Boolean>
+            </x:Arguments>
+        </pages:SystemInfo>
       </x:Arguments>
     </NavigationPage>
   </FlyoutPage.Detail>

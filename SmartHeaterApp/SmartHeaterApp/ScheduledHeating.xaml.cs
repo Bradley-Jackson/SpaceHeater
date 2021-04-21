@@ -12,7 +12,7 @@ namespace SmartHeaterApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ScheduledHeating : ContentPage
     {
-        public ScheduledHeating()
+        public ScheduledHeating(bool isFarenheit)
         {
             InitializeComponent();
         }

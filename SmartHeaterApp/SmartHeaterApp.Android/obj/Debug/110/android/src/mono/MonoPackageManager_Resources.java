@@ -4,7 +4,13 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "SmartHeaterApp.Android.dll" comes first in this list. */
 		"SmartHeaterApp.Android.dll",
 		"FormsViewGroup.dll",
+		"Microsoft.Bcl.AsyncInterfaces.dll",
+		"Newtonsoft.Json.dll",
+		"Renci.SshNet.dll",
 		"SmartHeaterApp.dll",
+		"SshNet.Security.Cryptography.dll",
+		"System.Text.Encodings.Web.dll",
+		"System.Text.Json.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.Annotation.Experimental.dll",

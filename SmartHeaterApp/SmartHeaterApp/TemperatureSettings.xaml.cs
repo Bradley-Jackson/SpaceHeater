@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System.IO;
+using System.Net;
+using System.Text.Json;
+using Newtonsoft.Json;
 
 namespace SmartHeaterApp
 {
@@ -13,31 +17,45 @@ namespace SmartHeaterApp
     public partial class TemperatureSettings : ContentPage
     {
         Label temperatureScaleLabel = new Label();
-        public TemperatureSettings()
+        public TemperatureSettings(bool isFarenheit)
         {
             InitializeComponent();
-
-            temperatureScaleLabel.SetBinding(Label.TextProperty, new Binding("SelectedItem", source: TemperatureScalePicker));
-        }
-        void OnPickerSelectedIndexChanged(object sender, EventArgs e)
-        {
-            var picker = (Picker)sender;
-            int selectedIndex = picker.SelectedIndex;
-
-            if (selectedIndex != -1)
-            {
-                temperatureScaleLabel.Text = (string)picker.ItemsSource[selectedIndex];
-            }
         }
 
         void SetTemperature(object sender, EventArgs e)
         {
-            Console.WriteLine("submitted wifi creds");
+            Console.WriteLine("set Temperature");
             try
             {
-                //await Navigation.PushAsync(new NavigationPage(new SystemInfo()));
-                //if successful, notify user and direct to temperature setting page
-                //else tell user it was unsuccessful
+                WebRequest request = WebRequest.Create("http://65.189.242.145:8081/fff.php");
+
+                request.Method = "POST";
+                string postData = "test str";
+                byte[] byteArray = Encoding.UTF8.GetBytes(postData);
+                request.ContentLength = byteArray.Length;
+                Stream dataStream = request.GetRequestStream();
+                dataStream.Write(byteArray, 0, byteArray.Length);
+                dataStream.Close();
+                WebResponse response = request.GetResponse();
+
+                dataStream = response.GetResponseStream();
+                StreamReader reader = new StreamReader(dataStream);
+                string responseFromServer = reader.ReadToEnd();
+
+                reader.Close();
+                dataStream.Close();
+                response.Close();
+
+                //WebRequest request = WebRequest.Create("http://65.189.242.145:8081/getSystemInfo.php");
+                //WebResponse response = request.GetResponse();
+
+                //Stream dataStream = response.GetResponseStream();
+                //StreamReader reader = new StreamReader(dataStream);
+                //string responseFromServer = reader.ReadToEnd();
+
+                //sysObject = JsonConvert.DeserializeObject<SystemInfoObject>(responseFromServer);
+
+                //response.Close();
             }
             catch (Exception ex)
             {

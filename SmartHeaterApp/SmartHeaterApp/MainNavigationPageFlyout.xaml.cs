@@ -15,14 +15,33 @@ namespace SmartHeaterApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainNavigationPageFlyout : ContentPage
     {
+        public bool displayFarenheit = true;
         public ListView ListView;
 
         public MainNavigationPageFlyout()
         {
             InitializeComponent();
+            SetTopBarText();
 
             BindingContext = new MainNavigationPageFlyoutViewModel();
             ListView = MenuItemsListView;
+        }
+
+        public void SetDisplayFarenHeit(bool isFarenheit)
+        {
+            displayFarenheit = isFarenheit;
+        }
+
+        public void SetTopBarText()
+        {
+            if (displayFarenheit)
+            {
+                TopBar.Text = "Displaying temps in Farenheit";
+            }
+            else
+            {
+                TopBar.Text = "Displaying temps in Celcius";
+            }
         }
 
         class MainNavigationPageFlyoutViewModel : INotifyPropertyChanged
@@ -33,10 +52,10 @@ namespace SmartHeaterApp
             {
                 MenuItems = new ObservableCollection<MainNavigationPageFlyoutMenuItem>(new[]
                 {
-                    new MainNavigationPageFlyoutMenuItem { Id = 0, Title = "System Info" },
-                    new MainNavigationPageFlyoutMenuItem { Id = 1, Title = "Sheduled Heating" },
-                    new MainNavigationPageFlyoutMenuItem { Id = 2, Title = "Temperature Settings" },
-                    new MainNavigationPageFlyoutMenuItem { Id = 3, Title = "Logout" },
+                    new MainNavigationPageFlyoutMenuItem { Id = 0, Title = "Change Temp Display" },
+                    new MainNavigationPageFlyoutMenuItem { Id = 1, Title = "System Info" },
+                    new MainNavigationPageFlyoutMenuItem { Id = 2, Title = "Sheduled Heating" },
+                    new MainNavigationPageFlyoutMenuItem { Id = 3, Title = "Temperature Settings" },
                 });
             }
 

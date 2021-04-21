@@ -10,7 +10,7 @@ namespace SmartHeaterApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new MainNavigationPage(true);
         }
 
         protected override void OnStart()

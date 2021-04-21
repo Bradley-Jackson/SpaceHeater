@@ -574,3 +574,13 @@ C:\Users\Bradj\source\repos\SmartHeaterApp\SmartHeaterApp\SmartHeaterApp.Android
 C:\Users\Bradj\source\repos\SmartHeaterApp\SmartHeaterApp\SmartHeaterApp.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\Bradj\source\repos\SmartHeaterApp\SmartHeaterApp\SmartHeaterApp.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Bradj\source\repos\SmartHeaterApp\SmartHeaterApp\SmartHeaterApp.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Bradj\source\repos\SmartHeaterApp\SmartHeaterApp\SmartHeaterApp.Android\obj\Debug\110\android\assets\Renci.SshNet.dll
+C:\Users\Bradj\source\repos\SmartHeaterApp\SmartHeaterApp\SmartHeaterApp.Android\obj\Debug\110\android\assets\SshNet.Security.Cryptography.dll
+C:\Users\Bradj\source\repos\SmartHeaterApp\SmartHeaterApp\SmartHeaterApp.Android\obj\Debug\110\android\assets\Newtonsoft.Json.dll
+C:\Users\Bradj\source\repos\SmartHeaterApp\SmartHeaterApp\SmartHeaterApp.Android\obj\Debug\110\android\assets\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Bradj\source\repos\SmartHeaterApp\SmartHeaterApp\SmartHeaterApp.Android\obj\Debug\110\android\assets\System.Buffers.dll
+C:\Users\Bradj\source\repos\SmartHeaterApp\SmartHeaterApp\SmartHeaterApp.Android\obj\Debug\110\android\assets\System.Memory.dll
+C:\Users\Bradj\source\repos\SmartHeaterApp\SmartHeaterApp\SmartHeaterApp.Android\obj\Debug\110\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Bradj\source\repos\SmartHeaterApp\SmartHeaterApp\SmartHeaterApp.Android\obj\Debug\110\android\assets\System.Text.Encodings.Web.dll
+C:\Users\Bradj\source\repos\SmartHeaterApp\SmartHeaterApp\SmartHeaterApp.Android\obj\Debug\110\android\assets\System.Text.Json.dll
+C:\Users\Bradj\source\repos\SmartHeaterApp\SmartHeaterApp\SmartHeaterApp.Android\obj\Debug\110\android\assets\System.Threading.Tasks.Extensions.dll
